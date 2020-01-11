@@ -20,7 +20,6 @@ class Triangle
       raise TriangleError
     end 
   end 
-  binding.pry
   class TriangleError < StandardError
     # triangle error code
   end
